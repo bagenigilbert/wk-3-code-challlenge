@@ -6,19 +6,19 @@ body, h1, h2, h3, p, ul, li {
   
   /* Set the background color and text color for the body */
   body {
-    background-color: #f0f0f0;
+    background-color: orange;
     color: #333;
     font-family: Arial, sans-serif;
   }
   
   /* Style the header */
   header {
-    background-color: #333;
+    background-color: transparent;
     padding: 20px;
   }
   
   header h1 {
-    color: #fff;
+    color: #000000;
     font-size: 24px;
   }
   
@@ -32,7 +32,7 @@ body, h1, h2, h3, p, ul, li {
   /* Style the movie details section */
   #movie-details {
     flex: 0 0 60%;
-    background-color: #fff;
+    background-color: orange;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -67,7 +67,7 @@ body, h1, h2, h3, p, ul, li {
   /* Style the movie menu section */
   #movie-menu {
     flex: 0 0 35%;
-    background-color: #fff;
+    background-color: orange;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -75,6 +75,8 @@ body, h1, h2, h3, p, ul, li {
   #movie-menu h2 {
     font-size: 18px;
     margin-bottom: 10px;
+    color: #000000
+    ;
   }
   
   ul#films {
