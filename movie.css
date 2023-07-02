@@ -1,0 +1,90 @@
+body, h1, h2, h3, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(250, 171, 0);
+    color: #070101;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: #333;
+    padding: 20px;
+}
+
+header h1{
+    color: #26ff00;
+    font-size: 25px;
+}
+
+main{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#movie-details{
+    flex: 0 0 60%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#posters{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+
+}
+#movie-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#runtime, #showtime, #available-tickets{
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
+
+#buy-tickets{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#movie-menu{
+    flex: 0 0 36%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#movie-menu h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul#films{
+    list-style-type: none;
+}
+
+li.film.items{
+    margin-bottom: 5px;
+
+}
+
+li.sold-out.film.item{
+    color: #888;
+    text-decoration: line-through;
+}
