@@ -1,0 +1,72 @@
+/* Movie details container */
+.movie-details {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Movie poster */
+#poster {
+  width: 250px;
+  height: 375px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/* Movie information */
+.movie-info {
+  margin-left: 20px;
+}
+
+.movie-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-info p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Movie menu */
+#films {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.film {
+  cursor: pointer;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #8c1067;
+  transition: background-color 0.3s ease;
+  width: 150px;
+}
+
+.film:hover {
+  background-color:blue;
+}
+
+/* Buy Tickets button */
+#buy-tickets {
+  background-color: #2261ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#buy-tickets:hover {
+  background-color: #f44336;
+}
+body {
+  background-color: orange;
+}
