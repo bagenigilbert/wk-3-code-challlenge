@@ -1,12 +1,29 @@
-/* Movie details container */
-.movie-details {
-  display: inline-flex;
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: orange;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: rgb(255, 11, 11);
+  font-size: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Movie Details Container */
+#movie-details {
+  display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
 
-/* Movie poster */
-#poster {
+#movie-poster {
   width: 250px;
   height: 375px;
   object-fit: cover;
@@ -14,23 +31,34 @@
   border-radius: 5px;
 }
 
-/* Movie information */
-.movie-info {
+#movie-info {
   margin-left: 20px;
 }
 
-.movie-info h2 {
+#movie-info h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.movie-info p {
+#movie-info p {
   margin-bottom: 5px;
   font-size: 16px;
-  color: #ffffff;
+  color: #333333;
 }
 
-/* Movie menu */
+/* Movie Menu */
+#movie-menu {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#movie-menu h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
 #films {
   list-style: none;
   padding: 0;
@@ -41,21 +69,21 @@
 
 .film {
   cursor: pointer;
-  color: #ffffff;
+  color: #fef1f1;
   padding: 10px;
   border-radius: 5px;
-  background-color: #8c1067;
+  background-color: #8C1067;
   transition: background-color 0.3s ease;
   width: 150px;
 }
 
 .film:hover {
-  background-color:blue;
+  background-color: #ff06bd;
 }
 
-/* Buy Tickets button */
-#buy-tickets {
-  background-color: #2261ff;
+/* Buy Tickets Button */
+#buy-ticket-btn {
+  background-color: #2261FF;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
@@ -64,9 +92,17 @@
   transition: background-color 0.3s ease;
 }
 
-#buy-tickets:hover {
-  background-color: #f44336;
+#buy-ticket-btn:hover {
+  background-color: #c40000;
 }
-body {
-  background-color: orange;
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #movie-details {
+    flex-direction: column;
+  }
+
+  #movie-poster {
+    margin-bottom: 20px;
+  }
 }
