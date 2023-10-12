@@ -1,0 +1,26 @@
+{
+  "name": "wk-3-code-challlenge",
+  "version": "1.0.0",
+  "description": "[License: MIT] ## Description",
+  "main": "movie.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbert2003-beep/wk-3-code-challlenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilbert2003-beep/wk-3-code-challlenge/issues"
+  },
+  "homepage": "https://github.com/gilbert2003-beep/wk-3-code-challlenge#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.4"
+  }
+}
